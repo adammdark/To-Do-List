@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head> 
+<body class="font-sans bg-gray-800" >
+    <div class="mt-5">
+    <div class="addList ">
+    <div class="flex-col space-y-10 justify-items-center">
+    <h1 class="text-4xl font-extrabold text-slate-200  max-sm:ml-3">ToDo List </h1>
+    </div>
+    <div class="flex justify-center my-5 ml-16 max-sm:flex-col max-sm:items-center max-sm:mr-16">
+    <input type="text" id="addList" placeholder="Enter your To-Do" class="border-4 p-2 text-xl font-semibold text-slate-200 max-sm:w-[120%] w-96 ">
+    <button id="submit"class=" bg-gray-500 text-white rounded-lg px-3 py-1 ml-5 font-bold hover:bg-black hover:cursor-pointer hover:bg-sky-100 hover:text-black max-sm:mt-5 max-sm:mr-5 py-4">Add Task</button>
+    </div>
+
+    <ul id="todo" class="list-decimal list-inside my-5 flex-col justify-items-center max-sm:mr-3  ">
+
+    </ul>
+    </div>
+    <div  class="completed flex-col justify-items-center ">
+        <h1 class="text-3xl font-bold  text-center text-slate-200 max-sm:mr-3">Completed</h1>
+        
+    </div>
+    <ul id="completed" class="list-decimal list-inside my-5 flex-col justify-items-center max-sm:mr-5">
+
+    </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
